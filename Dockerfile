@@ -4,7 +4,7 @@ ENV     DANTE_VER 1.4.4
 
 ENV     DANTE_URL https://www.inet.no/dante/files/dante-$DANTE_VER.tar.gz
 
-ENV     DANTE_SHA 4c97cff23e5c9b00ca1ec8a95ab22972813921d7fbf60fc453e3e06382fc38a7
+ENV     DANTE_SHA 1973c7732f1f9f0a4c0ccf2c1ce462c7c25060b25643ea90f9b98f53a813faec
 
 RUN     apk add --no-cache --virtual .build-deps \
             build-base \
