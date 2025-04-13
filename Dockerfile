@@ -1,6 +1,6 @@
 FROM    alpine:latest
 
-ENV     DANTE_VER 1.4.2
+ENV     DANTE_VER 1.4.4
 
 ENV     DANTE_URL https://www.inet.no/dante/files/dante-$DANTE_VER.tar.gz
 
